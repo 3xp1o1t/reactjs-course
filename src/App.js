@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import HolaMundo from "./components/HolaMundo";
+import AdiosMundo from './components/AdiosMundo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Jesus Montiel -> on top 
-        </p>
-        <h2>Mi primer app :p</h2> 
-      </header>
+      <HolaMundo />
+      <AdiosMundo />
+     </header>
     </div>
   );
 }
